@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  padding: 0 10px;
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.changeMod {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.changeMod > p > span {
+  color: blue;
+  cursor: pointer;
+}
+
+.logo {
+  margin-bottom: 30px;
+}

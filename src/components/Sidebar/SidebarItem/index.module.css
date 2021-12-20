@@ -1,0 +1,20 @@
+.sidebarItem {
+  display: flex;
+  font-size: 13px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 4px;
+}
+
+.sidebarItem:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.sidebarItem > p span {
+  margin: 0 3px;
+}

@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  margin-top: 35px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+.feedComponent {
+  flex: 1;
+}
+.sidebar {
+  display: none;
+}
+.widgets {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: initial;
+    flex: 0.4;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    display: initial;
+    flex: 0.3;
+  }
+  .widgets {
+    display: initial;
+    flex: 0.3;
+  }
+}

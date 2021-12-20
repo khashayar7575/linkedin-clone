@@ -1,0 +1,19 @@
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: rgb(88, 88, 88);
+  cursor: pointer;
+  transition: all 250ms;
+}
+.headerOption:hover,
+.headerOption:active {
+  color: black;
+}
+.icon {
+}
+.title {
+  font-size: 12px;
+  font-weight: 400;
+}
